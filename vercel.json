@@ -57,9 +57,5 @@
       ]
     }
   ],
-  "functions": {
-    "src/app/**/*.tsx": {
-      "maxDuration": 30
-    }
-  }
+
 }
