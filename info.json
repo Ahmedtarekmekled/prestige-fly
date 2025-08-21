@@ -1,0 +1,886 @@
+{
+    "website_info": {
+      "name": "Prestige Fly",
+      "type": "International Travel Services",
+      "primary_language": "French",
+      "secondary_language": "English",
+      "services": ["Study Abroad", "Work Abroad", "Tourism"],
+      "description": {
+        "en": "Your gateway to international opportunities - Study, Work, and Explore the world",
+        "fr": "Votre passerelle vers les opportunités internationales - Étudier, Travailler et Explorer le monde"
+      },
+      "tagline": {
+        "en": "Elevate Your Journey with Prestige Fly",
+        "fr": "Élevez Votre Voyage avec Prestige Fly"
+      }
+    },
+    "brand_identity": {
+      "mission": {
+        "en": "To provide premium travel services that open doors to international education, career opportunities, and unforgettable experiences",
+        "fr": "Fournir des services de voyage haut de gamme qui ouvrent les portes à l'éducation internationale, aux opportunités de carrière et aux expériences inoubliables"
+      },
+      "vision": {
+        "en": "Connecting dreams to destinations worldwide",
+        "fr": "Connecter les rêves aux destinations du monde entier"
+      },
+      "values": [
+        {
+          "en": "Excellence in Service",
+          "fr": "Excellence dans le Service"
+        },
+        {
+          "en": "Trust and Reliability",
+          "fr": "Confiance et Fiabilité"
+        },
+        {
+          "en": "Global Connectivity",
+          "fr": "Connectivité Mondiale"
+        }
+      ]
+    },
+    "visual_design": {
+      "color_palette": {
+        "primary": "#1E3A8A",
+        "primary_name": "Navy Blue",
+        "secondary": "#3B82F6",
+        "secondary_name": "Royal Blue",
+        "accent": "#F59E0B",
+        "accent_name": "Golden Yellow",
+        "neutral": {
+          "white": "#FFFFFF",
+          "light_gray": "#F8FAFC",
+          "dark_gray": "#1F2937",
+          "text_primary": "#111827",
+          "text_secondary": "#6B7280"
+        },
+        "gradients": {
+          "hero_background": "linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%)",
+          "card_hover": "linear-gradient(45deg, #1E3A8A 0%, #2563EB 100%)",
+          "cta_button": "linear-gradient(90deg, #F59E0B 0%, #D97706 100%)"
+        }
+      },
+      "typography": {
+        "primary_font": "Montserrat",
+        "secondary_font": "Open Sans",
+        "heading_weights": ["300", "400", "600", "700"],
+        "body_weight": "400",
+        "style": "Modern, professional, international"
+      },
+      "layout": {
+        "type": "Full-width responsive design",
+        "structure": "Hero-driven with interactive sections",
+        "inspiration": "Garden Eight sophistication meets travel elegance"
+      }
+    },
+    "pages_structure": {
+      "home": {
+        "url": {
+          "en": "/",
+          "fr": "/fr/"
+        },
+        "sections": {
+          "hero": {
+            "background_video": {
+              "primary": "International destinations montage (airports, universities, landmarks)",
+              "fallback": "Static hero image with gradient overlay",
+              "duration": "30-45 seconds loop",
+              "style": "Cinematic travel footage with navy blue overlay"
+            },
+            "content": {
+              "headline": {
+                "en": "Your Journey to Global Success Starts Here",
+                "fr": "Votre Voyage vers le Succès Mondial Commence Ici"
+              },
+              "subheadline": {
+                "en": "Expert travel services for Study Abroad, Work Opportunities, and Premium Tourism",
+                "fr": "Services de voyage experts pour Études à l'Étranger, Opportunités de Travail et Tourisme Premium"
+              },
+              "cta_buttons": [
+                {
+                  "en": "Start Your Journey",
+                  "fr": "Commencez Votre Voyage",
+                  "link": "/book-appointment"
+                },
+                {
+                  "en": "Explore Destinations",
+                  "fr": "Explorez les Destinations",
+                  "link": "/destinations"
+                }
+              ]
+            },
+            "interactive_elements": {
+              "floating_icons": "Animated travel icons (plane, passport, graduation cap, briefcase)",
+              "scroll_indicator": "Animated down arrow",
+              "background_parallax": "Subtle parallax effect on video"
+            }
+          },
+          "services_overview": {
+            "title": {
+              "en": "Our Premium Services",
+              "fr": "Nos Services Premium"
+            },
+            "services": [
+              {
+                "name": {
+                  "en": "Study Abroad",
+                  "fr": "Études à l'Étranger"
+                },
+                "description": {
+                  "en": "Navigate your path to international education with our comprehensive support",
+                  "fr": "Naviguez votre chemin vers l'éducation internationale avec notre soutien complet"
+                },
+                "icon": "graduation-cap",
+                "animation": "Hover scale and glow effect"
+              },
+              {
+                "name": {
+                  "en": "Work Abroad",
+                  "fr": "Travail à l'Étranger"
+                },
+                "description": {
+                  "en": "Unlock global career opportunities with our professional guidance",
+                  "fr": "Débloquez les opportunités de carrière mondiale avec nos conseils professionnels"
+                },
+                "icon": "briefcase",
+                "animation": "Hover rotate and color change"
+              },
+              {
+                "name": {
+                  "en": "Premium Tourism",
+                  "fr": "Tourisme Premium"
+                },
+                "description": {
+                  "en": "Experience luxury travel with curated destinations and exclusive services",
+                  "fr": "Vivez un voyage de luxe avec des destinations sélectionnées et des services exclusifs"
+                },
+                "icon": "map-pin",
+                "animation": "Hover bounce and shadow effect"
+              }
+            ]
+          },
+          "why_choose_us": {
+            "title": {
+              "en": "Why Choose Prestige Fly?",
+              "fr": "Pourquoi Choisir Prestige Fly?"
+            },
+            "features": [
+              {
+                "title": {
+                  "en": "Expert Guidance",
+                  "fr": "Conseil Expert"
+                },
+                "description": {
+                  "en": "Years of experience in international travel services",
+                  "fr": "Années d'expérience dans les services de voyage internationaux"
+                }
+              },
+              {
+                "title": {
+                  "en": "Global Network",
+                  "fr": "Réseau Mondial"
+                },
+                "description": {
+                  "en": "Partnerships with institutions and agencies worldwide",
+                  "fr": "Partenariats avec des institutions et agences du monde entier"
+                }
+              },
+              {
+                "title": {
+                  "en": "Personalized Service",
+                  "fr": "Service Personnalisé"
+                },
+                "description": {
+                  "en": "Tailored solutions for your unique needs and goals",
+                  "fr": "Solutions sur mesure pour vos besoins et objectifs uniques"
+                }
+              }
+            ]
+          },
+          "testimonials": {
+            "title": {
+              "en": "Success Stories",
+              "fr": "Histoires de Succès"
+            },
+            "animation": "Carousel with fade transitions"
+          },
+          "cta_section": {
+            "background": "Navy blue gradient with travel pattern overlay",
+            "title": {
+              "en": "Ready to Start Your International Journey?",
+              "fr": "Prêt à Commencer Votre Voyage International?"
+            },
+            "button": {
+              "en": "Book Consultation",
+              "fr": "Réserver une Consultation"
+            }
+          }
+        }
+      },
+      "services": {
+        "url": {
+          "en": "/services",
+          "fr": "/fr/services"
+        },
+        "hero": {
+          "title": {
+            "en": "Comprehensive Travel Services",
+            "fr": "Services de Voyage Complets"
+          },
+          "background": "Subtle animated background with service icons"
+        },
+        "services_detailed": [
+          {
+            "category": "study_abroad",
+            "title": {
+              "en": "Study Abroad Services",
+              "fr": "Services d'Études à l'Étranger"
+            },
+            "services": [
+              {
+                "name": {
+                  "en": "University Selection",
+                  "fr": "Sélection d'Université"
+                },
+                "description": {
+                  "en": "Find the perfect institution for your academic goals",
+                  "fr": "Trouvez l'institution parfaite pour vos objectifs académiques"
+                }
+              },
+              {
+                "name": {
+                  "en": "Application Support",
+                  "fr": "Support d'Application"
+                },
+                "description": {
+                  "en": "Complete assistance with application processes",
+                  "fr": "Assistance complète avec les processus de candidature"
+                }
+              },
+              {
+                "name": {
+                  "en": "Visa Processing",
+                  "fr": "Traitement de Visa"
+                },
+                "description": {
+                  "en": "Expert guidance through visa requirements",
+                  "fr": "Conseils d'experts à travers les exigences de visa"
+                }
+              },
+              {
+                "name": {
+                  "en": "Accommodation Assistance",
+                  "fr": "Assistance Logement"
+                },
+                "description": {
+                  "en": "Secure comfortable housing near your campus",
+                  "fr": "Sécurisez un logement confortable près de votre campus"
+                }
+              }
+            ]
+          },
+          {
+            "category": "work_abroad",
+            "title": {
+              "en": "Work Abroad Services",
+              "fr": "Services de Travail à l'Étranger"
+            },
+            "services": [
+              {
+                "name": {
+                  "en": "Job Placement",
+                  "fr": "Placement d'Emploi"
+                },
+                "description": {
+                  "en": "Connect with international employers",
+                  "fr": "Connectez-vous avec des employeurs internationaux"
+                }
+              },
+              {
+                "name": {
+                  "en": "Work Permit Assistance",
+                  "fr": "Assistance Permis de Travail"
+                },
+                "description": {
+                  "en": "Navigate work authorization requirements",
+                  "fr": "Naviguez les exigences d'autorisation de travail"
+                }
+              },
+              {
+                "name": {
+                  "en": "Professional Development",
+                  "fr": "Développement Professionnel"
+                },
+                "description": {
+                  "en": "Enhance skills for international markets",
+                  "fr": "Améliorez vos compétences pour les marchés internationaux"
+                }
+              }
+            ]
+          },
+          {
+            "category": "tourism",
+            "title": {
+              "en": "Premium Tourism Services",
+              "fr": "Services de Tourisme Premium"
+            },
+            "services": [
+              {
+                "name": {
+                  "en": "Luxury Travel Packages",
+                  "fr": "Forfaits Voyage de Luxe"
+                },
+                "description": {
+                  "en": "Curated experiences at world-class destinations",
+                  "fr": "Expériences sélectionnées dans des destinations de classe mondiale"
+                }
+              },
+              {
+                "name": {
+                  "en": "Cultural Immersion",
+                  "fr": "Immersion Culturelle"
+                },
+                "description": {
+                  "en": "Deep cultural experiences and local connections",
+                  "fr": "Expériences culturelles profondes et connexions locales"
+                }
+              },
+              {
+                "name": {
+                  "en": "Group Tours",
+                  "fr": "Tours de Groupe"
+                },
+                "description": {
+                  "en": "Organized group travel with expert guides",
+                  "fr": "Voyage de groupe organisé avec des guides experts"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "destinations": {
+        "url": {
+          "en": "/destinations",
+          "fr": "/fr/destinations"
+        },
+        "hero": {
+          "title": {
+            "en": "Discover Your Next Destination",
+            "fr": "Découvrez Votre Prochaine Destination"
+          },
+          "interactive_map": "3D interactive world map with highlighted countries"
+        },
+        "destination_categories": [
+          {
+            "category": "study_destinations",
+            "title": {
+              "en": "Top Study Destinations",
+              "fr": "Principales Destinations d'Études"
+            },
+            "destinations": [
+              {
+                "country": "Canada",
+                "cities": ["Toronto", "Vancouver", "Montreal"],
+                "highlights": {
+                  "en": ["World-class universities", "Multicultural environment", "Post-graduation work opportunities"],
+                  "fr": ["Universités de classe mondiale", "Environnement multiculturel", "Opportunités de travail post-diplôme"]
+                },
+                "image": "canada-universities.jpg",
+                "animation": "Hover reveal effect"
+              },
+              {
+                "country": "Australia",
+                "cities": ["Sydney", "Melbourne", "Brisbane"],
+                "highlights": {
+                  "en": ["High-quality education", "Beautiful landscapes", "Student-friendly policies"],
+                  "fr": ["Éducation de haute qualité", "Beaux paysages", "Politiques favorables aux étudiants"]
+                },
+                "image": "australia-education.jpg",
+                "animation": "Parallax scroll effect"
+              }
+            ]
+          },
+          {
+            "category": "work_destinations",
+            "title": {
+              "en": "Career Opportunities Worldwide",
+              "fr": "Opportunités de Carrière dans le Monde"
+            },
+            "destinations": [
+              {
+                "country": "Germany",
+                "highlights": {
+                  "en": ["Strong economy", "Engineering opportunities", "Work-life balance"],
+                  "fr": ["Économie forte", "Opportunités d'ingénierie", "Équilibre travail-vie"]
+                }
+              },
+              {
+                "country": "UAE",
+                "highlights": {
+                  "en": ["Tax-free income", "Multicultural workplace", "Strategic location"],
+                  "fr": ["Revenu libre d'impôt", "Lieu de travail multiculturel", "Emplacement stratégique"]
+                }
+              }
+            ]
+          },
+          {
+            "category": "tourism_destinations",
+            "title": {
+              "en": "Premium Travel Destinations",
+              "fr": "Destinations de Voyage Premium"
+            },
+            "destinations": [
+              {
+                "country": "Switzerland",
+                "highlights": {
+                  "en": ["Alpine beauty", "Luxury experiences", "Cultural richness"],
+                  "fr": ["Beauté alpine", "Expériences de luxe", "Richesse culturelle"]
+                }
+              },
+              {
+                "country": "Japan",
+                "highlights": {
+                  "en": ["Unique culture", "Modern innovation", "Culinary excellence"],
+                  "fr": ["Culture unique", "Innovation moderne", "Excellence culinaire"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "url": {
+          "en": "/resources",
+          "fr": "/fr/ressources"
+        },
+        "hero": {
+          "title": {
+            "en": "Your Travel Resource Hub",
+            "fr": "Votre Hub de Ressources de Voyage"
+          }
+        },
+        "resource_categories": [
+          {
+            "category": "guides",
+            "title": {
+              "en": "Travel Guides",
+              "fr": "Guides de Voyage"
+            },
+            "resources": [
+              {
+                "title": {
+                  "en": "Student Visa Guide",
+                  "fr": "Guide de Visa Étudiant"
+                },
+                "type": "PDF Download",
+                "description": {
+                  "en": "Complete guide to student visa applications",
+                  "fr": "Guide complet des demandes de visa étudiant"
+                }
+              }
+            ]
+          },
+          {
+            "category": "tools",
+            "title": {
+              "en": "Planning Tools",
+              "fr": "Outils de Planification"
+            },
+            "resources": [
+              {
+                "title": {
+                  "en": "Budget Calculator",
+                  "fr": "Calculateur de Budget"
+                },
+                "type": "Interactive Tool",
+                "description": {
+                  "en": "Calculate your study/work abroad expenses",
+                  "fr": "Calculez vos dépenses d'études/travail à l'étranger"
+                }
+              }
+            ]
+          },
+          {
+            "category": "blog",
+            "title": {
+              "en": "Latest Articles",
+              "fr": "Derniers Articles"
+            },
+            "posts": [
+              {
+                "title": {
+                  "en": "Top 10 Study Abroad Destinations 2024",
+                  "fr": "Top 10 des Destinations d'Études à l'Étranger 2024"
+                },
+                "date": "2024-03-15",
+                "category": "Study Abroad"
+              }
+            ]
+          }
+        ]
+      },
+      "book_appointment": {
+        "url": {
+          "en": "/book-appointment",
+          "fr": "/fr/prendre-rendez-vous"
+        },
+        "hero": {
+          "title": {
+            "en": "Book Your Consultation",
+            "fr": "Réservez Votre Consultation"
+          },
+          "subtitle": {
+            "en": "Take the first step towards your international journey",
+            "fr": "Faites le premier pas vers votre voyage international"
+          }
+        },
+        "booking_form": {
+          "service_selection": {
+            "title": {
+              "en": "Select Service",
+              "fr": "Sélectionner le Service"
+            },
+            "options": [
+              {
+                "en": "Study Abroad Consultation",
+                "fr": "Consultation Études à l'Étranger"
+              },
+              {
+                "en": "Work Abroad Consultation",
+                "fr": "Consultation Travail à l'Étranger"
+              },
+              {
+                "en": "Tourism Planning",
+                "fr": "Planification Touristique"
+              }
+            ]
+          },
+          "personal_info": {
+            "fields": [
+              {
+                "name": "full_name",
+                "label": {
+                  "en": "Full Name",
+                  "fr": "Nom Complet"
+                },
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": {
+                  "en": "Email Address",
+                  "fr": "Adresse Email"
+                },
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "phone",
+                "label": {
+                  "en": "Phone Number",
+                  "fr": "Numéro de Téléphone"
+                },
+                "type": "tel",
+                "required": true
+              },
+              {
+                "name": "preferred_language",
+                "label": {
+                  "en": "Preferred Language",
+                  "fr": "Langue Préférée"
+                },
+                "type": "select",
+                "options": [
+                  {
+                    "value": "en",
+                    "label": "English"
+                  },
+                  {
+                    "value": "fr",
+                    "label": "Français"
+                  }
+                ]
+              }
+            ]
+          },
+          "appointment_details": {
+            "fields": [
+              {
+                "name": "preferred_date",
+                "label": {
+                  "en": "Preferred Date",
+                  "fr": "Date Préférée"
+                },
+                "type": "date"
+              },
+              {
+                "name": "preferred_time",
+                "label": {
+                  "en": "Preferred Time",
+                  "fr": "Heure Préférée"
+                },
+                "type": "select"
+              },
+              {
+                "name": "consultation_type",
+                "label": {
+                  "en": "Consultation Type",
+                  "fr": "Type de Consultation"
+                },
+                "type": "radio",
+                "options": [
+                  {
+                    "en": "In-Person",
+                    "fr": "En Personne"
+                  },
+                  {
+                    "en": "Video Call",
+                    "fr": "Appel Vidéo"
+                  },
+                  {
+                    "en": "Phone Call",
+                    "fr": "Appel Téléphonique"
+                  }
+                ]
+              }
+            ]
+          },
+          "additional_info": {
+            "name": "message",
+            "label": {
+              "en": "Tell us about your goals and requirements",
+              "fr": "Parlez-nous de vos objectifs et exigences"
+            },
+            "type": "textarea"
+          }
+        },
+        "confirmation": {
+          "title": {
+            "en": "Appointment Confirmed!",
+            "fr": "Rendez-vous Confirmé!"
+          },
+          "message": {
+            "en": "We'll contact you within 24 hours to confirm your appointment details.",
+            "fr": "Nous vous contacterons dans les 24 heures pour confirmer les détails de votre rendez-vous."
+          }
+        }
+      },
+      "contact": {
+        "url": {
+          "en": "/contact",
+          "fr": "/fr/contact"
+        },
+        "hero": {
+          "title": {
+            "en": "Get in Touch",
+            "fr": "Contactez-Nous"
+          },
+          "subtitle": {
+            "en": "Ready to start your international journey? We're here to help.",
+            "fr": "Prêt à commencer votre voyage international? Nous sommes là pour vous aider."
+          }
+        },
+        "contact_methods": [
+          {
+            "type": "office",
+            "title": {
+              "en": "Visit Our Office",
+              "fr": "Visitez Notre Bureau"
+            },
+            "details": {
+              "address": "123 Travel Street, International District",
+              "hours": {
+                "en": "Monday - Friday: 9:00 AM - 6:00 PM",
+                "fr": "Lundi - Vendredi: 9h00 - 18h00"
+              }
+            }
+          },
+          {
+            "type": "phone",
+            "title": {
+              "en": "Call Us",
+              "fr": "Appelez-Nous"
+            },
+            "details": {
+              "primary": "+1 (555) 123-4567",
+              "emergency": "+1 (555) 987-6543"
+            }
+          },
+          {
+            "type": "email",
+            "title": {
+              "en": "Email Us",
+              "fr": "Envoyez-nous un Email"
+            },
+            "details": {
+              "general": "info@prestigefly.com",
+              "support": "support@prestigefly.com"
+            }
+          }
+        ],
+        "contact_form": {
+          "title": {
+            "en": "Send us a Message",
+            "fr": "Envoyez-nous un Message"
+          },
+          "fields": [
+            {
+              "name": "name",
+              "label": {
+                "en": "Your Name",
+                "fr": "Votre Nom"
+              },
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": {
+                "en": "Email Address",
+                "fr": "Adresse Email"
+              },
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "subject",
+              "label": {
+                "en": "Subject",
+                "fr": "Sujet"
+              },
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "service_interest",
+              "label": {
+                "en": "Service of Interest",
+                "fr": "Service d'Intérêt"
+              },
+              "type": "select",
+              "options": [
+                {
+                  "en": "Study Abroad",
+                  "fr": "Études à l'Étranger"
+                },
+                {
+                  "en": "Work Abroad",
+                  "fr": "Travail à l'Étranger"
+                },
+                {
+                  "en": "Tourism",
+                  "fr": "Tourisme"
+                },
+                {
+                  "en": "General Inquiry",
+                  "fr": "Demande Générale"
+                }
+              ]
+            },
+            {
+              "name": "message",
+              "label": {
+                "en": "Your Message",
+                "fr": "Votre Message"
+              },
+              "type": "textarea",
+              "required": true
+            }
+          ]
+        }
+      }
+    },
+    "interactive_features": {
+      "scroll_animations": {
+        "hero_parallax": "Background video with parallax scrolling effect",
+        "service_cards": "Cards animate in from different directions",
+        "destination_reveals": "Destination cards reveal on scroll with stagger effect",
+        "counters": "Animated counters for statistics (clients served, destinations, success rate)",
+        "timeline": "Animated process timeline for service steps"
+      },
+      "hover_effects": {
+        "service_cards": "Scale, glow, and color transition effects",
+        "destination_cards": "Image zoom with overlay text animation",
+        "buttons": "Gradient shift and shadow elevation",
+        "navigation": "Smooth color transitions and underline animations"
+      },
+      "interactive_elements": {
+        "world_map": "Interactive 3D world map on destinations page",
+        "video_backgrounds": "Looping background videos with play/pause controls",
+        "image_galleries": "Lightbox galleries with smooth transitions",
+        "testimonial_slider": "Auto-playing carousel with manual controls",
+        "language_switcher": "Smooth transition between languages",
+        "booking_calendar": "Interactive date picker with availability"
+      },
+      "micro_animations": {
+        "loading_states": "Smooth loading animations for forms and content",
+        "success_confirmations": "Celebration animations for completed actions",
+        "error_handling": "Gentle shake animations for form errors",
+        "page_transitions": "Smooth transitions between pages"
+      }
+    },
+    "technical_implementation": {
+      "animation_libraries": [
+        "GSAP for complex animations",
+        "Three.js for 3D world map",
+        "AOS (Animate On Scroll)",
+        "Framer Motion for React components",
+        "Lottie for micro-animations"
+      ],
+      "video_handling": [
+        "MP4 format for background videos",
+        "WebM fallback for better compression",
+        "Poster images for mobile devices",
+        "Lazy loading for performance"
+      ],
+      "internationalization": [
+        "i18n routing for French/English",
+        "RTL support preparation",
+        "Date/time localization",
+        "Currency formatting"
+      ],
+      "performance_optimization": [
+        "Image lazy loading",
+        "Video compression",
+        "Code splitting by routes",
+        "CDN implementation",
+        "Caching strategies"
+      ]
+    },
+    "seo_optimization": {
+      "keywords": {
+        "en": ["study abroad", "work abroad", "premium tourism", "international travel", "visa services", "education abroad"],
+        "fr": ["études à l'étranger", "travail à l'étranger", "tourisme premium", "voyage international", "services de visa", "éducation internationale"]
+      },
+      "meta_descriptions": {
+        "en": "Prestige Fly - Premium travel services for Study Abroad, Work Opportunities, and Luxury Tourism. Your gateway to international success.",
+        "fr": "Prestige Fly - Services de voyage premium pour Études à l'Étranger, Opportunités de Travail et Tourisme de Luxe. Votre passerelle vers le succès international."
+      },
+      "structured_data": {
+        "organization": "Travel agency schema",
+        "services": "Service schema for each offering",
+        "reviews": "Review schema for testimonials"
+      }
+    },
+    "conversion_optimization": {
+      "cta_placement": "Strategic call-to-action buttons throughout the journey",
+      "trust_signals": [
+        "Client testimonials",
+        "Success statistics",
+        "Partner logos",
+        "Certifications and accreditations"
+      ],
+      "lead_magnets": [
+        "Free consultation",
+        "Travel guides download",
+        "Destination comparison tool",
+        "Budget calculator"
+      ],
+      "urgency_elements": [
+        "Limited-time offers",
+        "Application deadlines",
+        "Seasonal promotions"
+      ]
+    }
+  }
