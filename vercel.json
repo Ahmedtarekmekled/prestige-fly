@@ -6,16 +6,7 @@
       "use": "@vercel/next"
     }
   ],
-  "routes": [
-    {
-      "src": "/fr/(.*)",
-      "dest": "/fr/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
+
   "headers": [
     {
       "source": "/(.*)",
